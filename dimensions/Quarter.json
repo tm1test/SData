@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"Quarter",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Quarter')/Hierarchies('Quarter')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"Quarter.hierarchies/Quarter.json"
+	]
+}

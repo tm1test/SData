@@ -1,0 +1,51 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Quarter",
+	"Elements":
+	[
+		{
+			"Name":"Year",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"1 Quarter",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2 Quarter",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"3 Quarter",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"4 Quarter",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Year",
+			"ComponentName":"1 Quarter",
+			"Weight":1
+		},
+		{
+			"ParentName":"Year",
+			"ComponentName":"2 Quarter",
+			"Weight":1
+		},
+		{
+			"ParentName":"Year",
+			"ComponentName":"3 Quarter",
+			"Weight":1
+		},
+		{
+			"ParentName":"Year",
+			"ComponentName":"4 Quarter",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

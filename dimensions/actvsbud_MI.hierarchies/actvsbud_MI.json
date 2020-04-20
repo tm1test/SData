@@ -1,0 +1,68 @@
+{
+	"@type":"Hierarchy",
+	"Name":"actvsbud_MI",
+	"Elements":
+	[
+		{
+			"Name":"Status",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Trend",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Actual",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Target",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tolerance",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Variance",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Variance Percent",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Score",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Score Change",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Actual Change Percent",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Status_1_Count",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Status_0_Count",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Status_-1_Count",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Status_Incomplete_Count",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"actvsbud_MI.subsets/Actual vs Target.json",
+		"actvsbud_MI.subsets/All Members.json"
+	]
+}
