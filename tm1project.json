@@ -7,5 +7,9 @@
 "!Dimensions('}ElementAttributes_account1_metrics')",
 "!Cubes('*')",
 "!Cubes('}ElementAttributes_account1_metrics')"
+],
+	"Files":
+[
+"/}ElementAttributes_account1_metrics.cub"
 ]
 }
