@@ -1,0 +1,10 @@
+{
+	"Version": "1.0",
+	"Name": "Test",
+	"Ignore": [
+		"!Processes('*')",
+		"!Dimensions('*')",
+		"!Cubes('*')",
+		"!Cubes('}ElementAttributes_account1_metrics')"
+	]
+}
