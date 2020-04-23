@@ -1,0 +1,15 @@
+{
+	"@type":"Cube",
+	"Name":"}ElementAttributes_account1_metrics",
+	"Rules@Code.link":"}ElementAttributes_account1_metrics.rules",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('account1_metrics')"
+		},
+		{
+			"@id":"Dimensions('}ElementAttributes_account1_metrics')"
+		}
+	],
+	"Views@Code.links":[]
+}
