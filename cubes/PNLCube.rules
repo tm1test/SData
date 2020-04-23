@@ -1,4 +1,5 @@
 #Region System
+#new rule for sum
 FEEDSTRINGS;
 SKIPCHECK;
 #EndRegion
