@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"}ElementAttributes_account1_metrics",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('}ElementAttributes_account1_metrics')/Hierarchies('}ElementAttributes_account1_metrics')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"}ElementAttributes_account1_metrics.hierarchies/}ElementAttributes_account1_metrics.json"
+	]
+}
