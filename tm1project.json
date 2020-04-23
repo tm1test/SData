@@ -4,9 +4,7 @@
 "Ignore": [
 "!Processes('*')",
 "!Dimensions('*')",
-"!Dimensions('}ElementAttributes_account1_metrics')",
-"!Cubes('*')",
-"!Cubes('}ElementAttributes_account1_metrics')"
+"!Dimensions('}ElementAttributes_account1_metrics')"
 ],
 	"Files":
 [
