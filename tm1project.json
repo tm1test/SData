@@ -5,6 +5,7 @@
 		"Cubes/Views",
 		"Cubes",
 		"Dimensions",
-		"Processes"
+		"Processes",
+		"!Cubes('SalesCube')"
 	]
 }
