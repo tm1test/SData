@@ -20,6 +20,7 @@
 			"@id":"Dimensions('month')"
 		}
 	],
+<<<<<<< HEAD
 	"Views@Code.links":
 	[
 		"SalesCube.views/All.json",
@@ -33,4 +34,7 @@
 		"SalesCube.views/Trace_complex.json",
 		"SalesCube.views/Trace_simple.json"
 	]
+=======
+	"Views@Code.links":[]
+>>>>>>> origin/feature-2020
 }
