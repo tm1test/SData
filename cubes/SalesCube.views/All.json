@@ -1,0 +1,66 @@
+{
+	"@type":"NativeView",
+	"Name":"All",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('region')/Hierarchies('region')"
+				},
+				"Expression":"[region].MEMBERS"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('actvsbud')/Hierarchies('actvsbud')/Subsets('All Members')"
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('model')/Hierarchies('model')"
+				},
+				"Expression":"[model].MEMBERS"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series 2WD')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('account1')/Hierarchies('account1')/Subsets('All Members')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('account1')/Hierarchies('account1')/Elements('Gross Margin%')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('month')/Hierarchies('month')/Subsets('All Members')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('month')/Hierarchies('month')/Elements('Year')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.00"
+}

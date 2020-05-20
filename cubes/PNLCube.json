@@ -1,0 +1,21 @@
+{
+	"@type":"Cube",
+	"Name":"PNLCube",
+	"Rules@Code.link":"PNLCube.rules",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('actvsbud')"
+		},
+		{
+			"@id":"Dimensions('region')"
+		},
+		{
+			"@id":"Dimensions('account2')"
+		},
+		{
+			"@id":"Dimensions('month')"
+		}
+	],
+	"Views@Code.links":[]
+}
