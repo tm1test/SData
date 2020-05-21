@@ -1,0 +1,146 @@
+{
+	"@type":"NativeView",
+	"Name":"format",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('month')/Hierarchies('month')"
+				},
+				"Expression":"TM1SubsetAll([month])"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('account1')/Hierarchies('account1')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('account1')/Hierarchies('account1')/Elements('Units')"
+					},
+					{
+						"@id":"Dimensions('account1')/Hierarchies('account1')/Elements('Sales')"
+					},
+					{
+						"@id":"Dimensions('account1')/Hierarchies('account1')/Elements('Variable Costs')"
+					},
+					{
+						"@id":"Dimensions('account1')/Hierarchies('account1')/Elements('Gross Margin')"
+					}
+				]
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('actvsbud')/Hierarchies('actvsbud')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('actvsbud')/Hierarchies('actvsbud')/Elements('Variance')"
+					},
+					{
+						"@id":"Dimensions('actvsbud')/Hierarchies('actvsbud')/Elements('Actual')"
+					},
+					{
+						"@id":"Dimensions('actvsbud')/Hierarchies('actvsbud')/Elements('Budget')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('actvsbud')/Hierarchies('actvsbud')/Elements('Variance')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('region')/Hierarchies('region')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('region')/Hierarchies('region')/Elements('World')"
+					},
+					{
+						"@id":"Dimensions('region')/Hierarchies('region')/Elements('Europe')"
+					},
+					{
+						"@id":"Dimensions('region')/Hierarchies('region')/Elements('Americas')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('region')/Hierarchies('region')/Elements('World')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('model')/Hierarchies('model')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series 2WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series 4WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 2WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 4WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('Total')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('T Series')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series 2WD')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.00"
+}

@@ -1,0 +1,33 @@
+{
+	"@type":"Cube",
+	"Name":"SalesPriorCube",
+	"Rules@Code.link":"SalesPriorCube.rules",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('actvsbud')"
+		},
+		{
+			"@id":"Dimensions('region')"
+		},
+		{
+			"@id":"Dimensions('model')"
+		},
+		{
+			"@id":"Dimensions('account1')"
+		},
+		{
+			"@id":"Dimensions('month')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"SalesPriorCube.views/example1.json",
+		"SalesPriorCube.views/format.json",
+		"SalesPriorCube.views/germany.json",
+		"SalesPriorCube.views/sales1qtr.json",
+		"SalesPriorCube.views/salesmargin%.json",
+		"SalesPriorCube.views/salesprice.json",
+		"SalesPriorCube.views/view_extract.json"
+	]
+}

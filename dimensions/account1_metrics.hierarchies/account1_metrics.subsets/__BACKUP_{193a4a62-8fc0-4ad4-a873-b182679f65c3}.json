@@ -1,0 +1,25 @@
+{
+	"@type":"Subset",
+	"Name":"__BACKUP_{193a4a62-8fc0-4ad4-a873-b182679f65c3}",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('account1_metrics')/Hierarchies('account1_metrics')/Elements('Gross Margin%')"
+		},
+		{
+			"@id":"Dimensions('account1_metrics')/Hierarchies('account1_metrics')/Elements('Price')"
+		},
+		{
+			"@id":"Dimensions('account1_metrics')/Hierarchies('account1_metrics')/Elements('Units')"
+		},
+		{
+			"@id":"Dimensions('account1_metrics')/Hierarchies('account1_metrics')/Elements('Gross Margin')"
+		},
+		{
+			"@id":"Dimensions('account1_metrics')/Hierarchies('account1_metrics')/Elements('Sales')"
+		},
+		{
+			"@id":"Dimensions('account1_metrics')/Hierarchies('account1_metrics')/Elements('Variable Costs')"
+		}
+	]
+}
