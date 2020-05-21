@@ -1,4 +1,11 @@
 {
 	"Version": "1.0",
-	"Name": "Test"
+	"Name": "Test",
+	"Ignore": [
+    "Cubes/Views",
+    "Cubes",
+    "Dimensions",
+    "Processes",
+    "!Cubes('PNLCube')"
+  ]
 }
