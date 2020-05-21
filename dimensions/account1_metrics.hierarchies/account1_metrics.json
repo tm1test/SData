@@ -1,0 +1,50 @@
+{
+	"@type":"Hierarchy",
+	"Name":"account1_metrics",
+	"Elements":
+	[
+		{
+			"Name":"Gross Margin%",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Price",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Variable Costs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gross Margin",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Gross Margin",
+			"ComponentName":"Sales",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gross Margin",
+			"ComponentName":"Variable Costs",
+			"Weight":-1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"account1_metrics.subsets/__BACKUP_{193a4a62-8fc0-4ad4-a873-b182679f65c3}.json",
+		"account1_metrics.subsets/__BACKUP_{86c50065-beec-4c59-874d-cadb440dc43f}.json",
+		"account1_metrics.subsets/All Members.json"
+	]
+}

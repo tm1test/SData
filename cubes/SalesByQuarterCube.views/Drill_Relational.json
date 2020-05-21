@@ -1,0 +1,214 @@
+{
+	"@type":"NativeView",
+	"Name":"Drill_Relational",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Quarter')/Hierarchies('Quarter')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Quarter')/Hierarchies('Quarter')/Elements('Year')"
+					},
+					{
+						"@id":"Dimensions('Quarter')/Hierarchies('Quarter')/Elements('1 Quarter')"
+					},
+					{
+						"@id":"Dimensions('Quarter')/Hierarchies('Quarter')/Elements('2 Quarter')"
+					},
+					{
+						"@id":"Dimensions('Quarter')/Hierarchies('Quarter')/Elements('3 Quarter')"
+					},
+					{
+						"@id":"Dimensions('Quarter')/Hierarchies('Quarter')/Elements('4 Quarter')"
+					}
+				]
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('account1')/Hierarchies('account1')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('account1')/Hierarchies('account1')/Elements('Units')"
+					},
+					{
+						"@id":"Dimensions('account1')/Hierarchies('account1')/Elements('Sales')"
+					},
+					{
+						"@id":"Dimensions('account1')/Hierarchies('account1')/Elements('Variable Costs')"
+					}
+				]
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('actvsbud')/Hierarchies('actvsbud')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('actvsbud')/Hierarchies('actvsbud')/Elements('Variance')"
+					},
+					{
+						"@id":"Dimensions('actvsbud')/Hierarchies('actvsbud')/Elements('Actual')"
+					},
+					{
+						"@id":"Dimensions('actvsbud')/Hierarchies('actvsbud')/Elements('Budget')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('actvsbud')/Hierarchies('actvsbud')/Elements('Actual')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('region')/Hierarchies('region')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('region')/Hierarchies('region')/Elements('World')"
+					},
+					{
+						"@id":"Dimensions('region')/Hierarchies('region')/Elements('Europe')"
+					},
+					{
+						"@id":"Dimensions('region')/Hierarchies('region')/Elements('Scandinavia')"
+					},
+					{
+						"@id":"Dimensions('region')/Hierarchies('region')/Elements('Benelux')"
+					},
+					{
+						"@id":"Dimensions('region')/Hierarchies('region')/Elements('Islands')"
+					},
+					{
+						"@id":"Dimensions('region')/Hierarchies('region')/Elements('Central Europe')"
+					},
+					{
+						"@id":"Dimensions('region')/Hierarchies('region')/Elements('France')"
+					},
+					{
+						"@id":"Dimensions('region')/Hierarchies('region')/Elements('Germany')"
+					},
+					{
+						"@id":"Dimensions('region')/Hierarchies('region')/Elements('Iberia')"
+					},
+					{
+						"@id":"Dimensions('region')/Hierarchies('region')/Elements('Southern Europe')"
+					},
+					{
+						"@id":"Dimensions('region')/Hierarchies('region')/Elements('Americas')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('region')/Hierarchies('region')/Elements('Germany')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('model')/Hierarchies('model')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 2WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 4WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series 2WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series 4WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('Total')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 1.8 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 2.0 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 2.5 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 3.0 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 3.4 L Sedan')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 2.5 L Sedan 4WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 3.0 L Sedan 4WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 3.4 L Sedan 4WD')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series Wagon')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series')"
+					},
+					{
+						"@id":"Dimensions('model')/Hierarchies('model')/Elements('T Series')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('model')/Hierarchies('model')/Elements('S Series 1.8 L Sedan')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.#########"
+}

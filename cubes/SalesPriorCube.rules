@@ -1,0 +1,11 @@
+#Region System
+FEEDSTRINGS;
+SKIPCHECK;
+#EndRegion
+
+['Dec']=n:1. + ['jan'] + ['feb'];
+
+feeders;
+
+['jan']=>['dec'];
+['feb']=>['dec'];

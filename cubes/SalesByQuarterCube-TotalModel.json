@@ -1,0 +1,26 @@
+{
+	"@type":"Cube",
+	"Name":"SalesByQuarterCube-TotalModel",
+	"Rules@Code.link":"SalesByQuarterCube-TotalModel.rules",
+	"DrillthroughRules@Code.link":"SalesByQuarterCube-TotalModel.drillthrough.rules",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('actvsbud')"
+		},
+		{
+			"@id":"Dimensions('region')"
+		},
+		{
+			"@id":"Dimensions('account1')"
+		},
+		{
+			"@id":"Dimensions('Quarter')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"SalesByQuarterCube-TotalModel.views/Drill.json",
+		"SalesByQuarterCube-TotalModel.views/Drill_to_detailed_data.json"
+	]
+}
