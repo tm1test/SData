@@ -1,0 +1,43 @@
+{
+	"@type":"Subset",
+	"Name":"Actual vs Target",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('actvsbud_MI')/Hierarchies('actvsbud_MI')/Elements('Status')"
+		},
+		{
+			"@id":"Dimensions('actvsbud_MI')/Hierarchies('actvsbud_MI')/Elements('Trend')"
+		},
+		{
+			"@id":"Dimensions('actvsbud_MI')/Hierarchies('actvsbud_MI')/Elements('Actual')"
+		},
+		{
+			"@id":"Dimensions('actvsbud_MI')/Hierarchies('actvsbud_MI')/Elements('Target')"
+		},
+		{
+			"@id":"Dimensions('actvsbud_MI')/Hierarchies('actvsbud_MI')/Elements('Tolerance')"
+		},
+		{
+			"@id":"Dimensions('actvsbud_MI')/Hierarchies('actvsbud_MI')/Elements('Variance')"
+		},
+		{
+			"@id":"Dimensions('actvsbud_MI')/Hierarchies('actvsbud_MI')/Elements('Variance Percent')"
+		},
+		{
+			"@id":"Dimensions('actvsbud_MI')/Hierarchies('actvsbud_MI')/Elements('Status_1_Count')"
+		},
+		{
+			"@id":"Dimensions('actvsbud_MI')/Hierarchies('actvsbud_MI')/Elements('Status_0_Count')"
+		},
+		{
+			"@id":"Dimensions('actvsbud_MI')/Hierarchies('actvsbud_MI')/Elements('Status_-1_Count')"
+		},
+		{
+			"@id":"Dimensions('actvsbud_MI')/Hierarchies('actvsbud_MI')/Elements('Status_Incomplete_Count')"
+		},
+		{
+			"@id":"Dimensions('actvsbud_MI')/Hierarchies('actvsbud_MI')/Elements('Score')"
+		}
+	]
+}

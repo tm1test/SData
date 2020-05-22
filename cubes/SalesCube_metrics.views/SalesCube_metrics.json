@@ -1,0 +1,66 @@
+{
+	"@type":"NativeView",
+	"Name":"SalesCube_metrics",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('actvsbud_MI')/Hierarchies('actvsbud_MI')/Subsets('All Members')"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('account1_metrics')/Hierarchies('account1_metrics')/Subsets('All Members')"
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('model')/Hierarchies('model')"
+				},
+				"Expression":"[model].MEMBERS"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('model')/Hierarchies('model')/Elements('L Series 2WD')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('month')/Hierarchies('month')/Subsets('All Members')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('month')/Hierarchies('month')/Elements('Feb')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('region')/Hierarchies('region')"
+				},
+				"Expression":"[region].MEMBERS"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('region')/Hierarchies('region')/Elements('Norway')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.00"
+}
