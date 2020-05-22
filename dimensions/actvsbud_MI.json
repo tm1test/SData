@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"actvsbud_MI",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('actvsbud_MI')/Hierarchies('actvsbud_MI')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"actvsbud_MI.hierarchies/actvsbud_MI.json"
+	]
+}

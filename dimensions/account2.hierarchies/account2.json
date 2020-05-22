@@ -1,0 +1,114 @@
+{
+	"@type":"Hierarchy",
+	"Name":"account2",
+	"Elements":
+	[
+		{
+			"Name":"Sales",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Variable Costs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gross Margin",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Advertising",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales Promotions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dealer Incentive Plan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Marketing",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Plant Overhead",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Transportation Costs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"General Administration",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Expenses",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Earnings Before Taxes",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Gross Margin",
+			"ComponentName":"Sales",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gross Margin",
+			"ComponentName":"Variable Costs",
+			"Weight":-1
+		},
+		{
+			"ParentName":"Marketing",
+			"ComponentName":"Advertising",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marketing",
+			"ComponentName":"Sales Promotions",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marketing",
+			"ComponentName":"Dealer Incentive Plan",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Expenses",
+			"ComponentName":"Marketing",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Expenses",
+			"ComponentName":"Plant Overhead",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Expenses",
+			"ComponentName":"Transportation Costs",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Expenses",
+			"ComponentName":"General Administration",
+			"Weight":1
+		},
+		{
+			"ParentName":"Earnings Before Taxes",
+			"ComponentName":"Gross Margin",
+			"Weight":1
+		},
+		{
+			"ParentName":"Earnings Before Taxes",
+			"ComponentName":"Total Expenses",
+			"Weight":-1
+		}
+	],
+	"Subsets@Code.links":[]
+}
